@@ -11,17 +11,18 @@ if (!isset($_POST['ocorrencia'])) {
     echo "É necessario explicar o ocorrido";
 }
 
+$id = $_POST['id'];
 $ocorrencia = $_POST['ocorrencia'];
-$id = $_POST['idpessoa'];
 $resumo = $_POST['resumo'];
 $condominio = $_POST['condominio'];
 
-$sql = "INSERT INTO ocorrencias (descricao, id_status, id_tipo, id_condominio, id_condomino) VALUES ('$resumo', 1, $ocorrencia, $condominio, $id)";
+$sql = "UPDATE ocorrencias SET descricao = '$resumo', id_tipo = '$ocorrencia', id_condominio='$condominio' where id=" . $id;
 
 if($mysqli->query($sql)) {
-    echo "Ocorrência cadastrada!";
+    echo "Ocorrência alterada!";
 } else {
-    echo "Erro ao cadastrar a ocorrência!";
+    echo "Erro ao alterar a ocorrência!";
+    echo $mysqli->error;
 }
 
 $mysqli->close();

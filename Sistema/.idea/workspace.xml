@@ -35,6 +35,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pesquisa" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Trabalho-M3\Sistema\alteracao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\Trabalho-M3\Sistema\pesquisa" />
       <recent name="E:\GitHub\Trabalho-M3\Sistema\deletar" />
@@ -49,7 +52,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597358117107</updated>
-      <workItem from="1597358118151" duration="6483000" />
+      <workItem from="1597358118151" duration="6687000" />
+      <workItem from="1597760554360" duration="4999000" />
+      <workItem from="1597851195117" duration="5556000" />
+      <workItem from="1597935700487" duration="1638000" />
     </task>
     <servers />
   </component>
@@ -66,15 +72,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1597358280059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1597358280059" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1597363864295">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1597856185474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597856185474" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597363864295" />
   </component>
 </project>
